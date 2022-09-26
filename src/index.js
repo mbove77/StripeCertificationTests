@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./payments/single/client/App";
+import SuscriptionClient from "./payments/subscription/client/SuscriptionClient"
 
-ReactDOM.render(<App />, document.getElementById("root"));
+//Remplace the client you want to see.
+ReactDOM.render(<SuscriptionClient />, document.getElementById("root"));
